@@ -7,6 +7,7 @@
 
 A simplified WPF application using the **Model-View-Controller (MVC)** architecture, designed to support individuals in early-stage dementia. It allows collaborators to register their level of support, displays multimedia, and integrates basic social media functionality. XML is used for data storage, and LINQ is used for querying collaborator data.
 
+
 ---
 
 ## ✅ Core Features
@@ -49,3 +50,17 @@ A simplified WPF application using the **Model-View-Controller (MVC)** architect
 
 ## Project Documentation
 [Project-Documentation-Geospatial-Recommender.pdf](https://github.com/user-attachments/files/20038637/Project-Documentation-Geospatial-Recommender.pdf)
+
+---
+
+# Screenshots
+> **Note:** Any GPS location shown below is based on the location clicked on the map by the user and not the actual location.
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/5b7f8912-581e-4a45-b54d-f5a93ac4b696" /><br/>
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/e5fb2250-4005-4851-b436-a8c9c98a1d8c" />
+<img width="219" alt="image" src="https://github.com/user-attachments/assets/5065da12-b7ab-4834-89bc-a3f8089adfa9" /><br/>
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/eddf8b1a-0595-4bb5-868c-cc44748e0bd6" />
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/9873f79c-97b4-40f8-83a8-39a6ebf38620" />
+
+
+
+
