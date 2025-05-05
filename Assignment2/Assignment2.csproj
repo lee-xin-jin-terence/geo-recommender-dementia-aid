@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\Collaborator-Icon.png" />
+    <None Remove="Icons\Current-Location-Icon.png" />
+    <None Remove="Icons\Twitter-Icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GMap.NET.Core" Version="2.0.2" />
+    <PackageReference Include="GMap.NET.WinPresentation" Version="2.0.2" />
+    <PackageReference Include="TweetinviAPI" Version="5.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\Collaborator-Icon.png" />
+    <Resource Include="Icons\Current-Location-Icon.png" />
+    <Resource Include="Icons\Twitter-Icon.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,140 @@
+﻿<Window x:Class="Assignment2.DisplayCollaboratorDetailsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment2"
+        mc:Ignorable="d"
+        Title="Collaborator Details" Height="610" Width="450"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <StackPanel>
+
+
+        <!--Template Style for various controls -->
+        
+        <StackPanel.Resources>
+            <Style TargetType="{x:Type Grid}">
+                <Setter Property="Margin" Value="0,20,0,10" />
+            </Style>
+
+
+            <Style TargetType="Label">
+                <Setter Property="HorizontalContentAlignment" Value="Center" /> 
+                <Setter Property="VerticalContentAlignment" Value="Center" />
+                <Setter Property="FontWeight" Value="Bold" />
+            </Style>
+            
+            <Style TargetType="{x:Type TextBox}">
+                <Setter Property="Margin" Value="0,0,30,0"/>
+                <Setter Property="IsReadOnly" Value="True" />
+                <Setter Property="Padding" Value="5,2,5,2" />
+                <Setter Property="Background" Value="#EDEDED" />
+                <Setter Property="HorizontalContentAlignment" Value="Center" />
+                <Setter Property="VerticalContentAlignment" Value="Center" />
+                <Setter Property="BorderBrush" Value="Black" />
+                <Setter Property="BorderThickness" Value="0.5"/>
+            </Style>
+        </StackPanel.Resources>
+        
+        <Label Margin="20,0,0,0" FontWeight="Bold" FontSize="22">
+            Details of the Collaborator
+        </Label>
+
+        
+        
+        <!--GRID containing fields for Collaborator ID-->
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.8*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Label  FontWeight="Bold" Grid.Column="0"
+                   Padding="0,0,10,0">Collaborator ID :</Label>
+            <TextBox Name="collaboratorIDTextBox" Grid.Column="1"  
+                    >Placeholder Text</TextBox>
+        </Grid>
+        
+
+        <!--GRID containing fields for First Name-->
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.8*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Padding="0,0,10,0">First Name :</Label>
+            <TextBox Name="firstNameTextBox" Grid.Column="1" >Placeholder Text</TextBox>
+        </Grid>
+
+
+        <!--GRID containing fields for Last Name-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.8*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label  Grid.Column="0" Padding="0,0,10,0">Last Name :</Label>
+            <TextBox Name="lastNameTextBox"  Grid.Column="1" >Placeholder Text</TextBox>
+        </Grid>
+
+        
+        <!--GRID containing fields for GPS Location-->
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.8*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label  Grid.Column="0"
+                   Padding="0,0,10,0">GPS Location :</Label>
+            <TextBox Name="gpsLocationTextBox" Grid.Column="1">Placeholder Text</TextBox>
+        </Grid>
+
+
+        <!--GRID containing fields for Hours Available-->
+        <Grid>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.8*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label  Grid.Column="0"  >
+                <TextBlock TextWrapping="Wrap" Padding="0,0,10,0"
+                           VerticalAlignment="Center"  >
+                     No. of Hours Available <LineBreak/>Each Week :
+                </TextBlock>
+            </Label>
+            <TextBox Name="hoursAvailableTextBox" Grid.Column="1" >Placeholder Text</TextBox>
+        </Grid>
+
+
+        <!--GRID containing fields for Support Activities-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.8*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            
+            
+            <Label  Grid.Column="0" Padding="0,0,10,0">
+                <TextBlock TextWrapping="Wrap">
+                    Support Activities&#10;Provided :
+                </TextBlock> 
+            </Label>
+            <TextBox Name="supportActivitiesTextBox" Grid.Column="1" 
+                     TextWrapping="Wrap" Height="140" 
+                     HorizontalContentAlignment="Left"
+                     VerticalContentAlignment="Top" Padding="3,3,3,3">
+                Placeholder Text
+            </TextBox>
+        </Grid>
+    </StackPanel>
+</Window>
