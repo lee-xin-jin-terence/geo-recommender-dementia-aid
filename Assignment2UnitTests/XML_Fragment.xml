@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- An XML file used for testing the XElementToEventAdapter and 
+    EventToXElementAdaper classes-->
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2001/12/soap-envelope" SOAP-ENV:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
+	<SOAP-ENV:Body xmlns:lle="http://www.xyz.org/lifelogevents">
+		<lle:Collaborator>
+			<lle:collaborator-id>ID5</lle:collaborator-id>
+			<lle:first-name>Jane</lle:first-name>
+			<lle:last-name>Smith</lle:last-name>
+			<lle:location>
+				<lle:lat>15.5</lle:lat>
+				<lle:long>25.5</lle:long>
+			</lle:location>
+			<lle:hours-available-each-week>20</lle:hours-available-each-week>
+			<lle:support-activity-list>
+				<lle:support-activity>MealPreparation</lle:support-activity>
+				<lle:support-activity>Transportation</lle:support-activity>
+				<lle:support-activity>ShoweringAssistance</lle:support-activity>
+			</lle:support-activity-list>
+		</lle:Collaborator>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
