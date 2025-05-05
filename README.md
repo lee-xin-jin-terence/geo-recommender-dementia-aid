@@ -59,7 +59,6 @@ A simplified WPF application using the **Model-View-Controller (MVC)** architect
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/e5fb2250-4005-4851-b436-a8c9c98a1d8c" />
 <img width="219" alt="image" src="https://github.com/user-attachments/assets/5065da12-b7ab-4834-89bc-a3f8089adfa9" /><br/>
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/eddf8b1a-0595-4bb5-868c-cc44748e0bd6" />
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/9873f79c-97b4-40f8-83a8-39a6ebf38620" />
 
 
 
