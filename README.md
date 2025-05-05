@@ -54,7 +54,8 @@ A simplified WPF application using the **Model-View-Controller (MVC)** architect
 ---
 
 # Screenshots
-> **Note:** Any GPS location shown below is based on the location clicked on the map by the user and not the actual location.
+> **Note:** The GPS location shown is arbitrary and based solely on where the user clicked on the map — it does not reflect a real or actual location.
+
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/5b7f8912-581e-4a45-b54d-f5a93ac4b696" /><br/>
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/e5fb2250-4005-4851-b436-a8c9c98a1d8c" />
 <img width="219" alt="image" src="https://github.com/user-attachments/assets/5065da12-b7ab-4834-89bc-a3f8089adfa9" /><br/>
