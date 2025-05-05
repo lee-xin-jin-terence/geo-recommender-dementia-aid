@@ -20,10 +20,13 @@ A simplified WPF application using the **Model-View-Controller (MVC)** architect
    - WPF UI displays text and image content to the user.
 
 3. 🌐 **Social Media Interaction**  
-   - Integration with one social media stream (e.g., Twitter or Facebook) for posting status updates.
+   - Integration with one social media stream (Twitter) for posting status updates.
 
 4. 🧪 **Unit Testing**  
-   - Unit tests for core logic such as XML handling and LINQ queries.
+   - Unit tests focus on the **models** and **XML/LINQ data handling**:  
+     - XML read/write operations  
+     - LINQ queries for retrieving collaborators  
+     - Model validation logic
 
 5. 🧱 **Use of Design Principles**  
    - Clear separation of concerns via the **MVC architecture**:  
